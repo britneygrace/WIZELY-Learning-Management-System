@@ -1,0 +1,106 @@
+.btn-group {
+    width: 300px;
+}
+.login{
+    color: #ffffff;
+    margin-left: 180px;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.login:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+#profile{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+#pop img {
+    transition: transform .5s ease;
+}
+#pop:hover img{
+    transform: scale(1.58);
+}
+.navbar.collapse.navbar-nav li a {
+    color: blue;
+}
+.fa-download{
+    background-color: green;
+    text-align: center;
+    padding-top: 5px;
+}
+footer{
+    padding: 20px;
+    margin-top: 10px;
+    width: 100%;
+    height: 250px;
+    background-color: #35424a;
+}
+footer section{
+    text-align: justify;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding: 10px;
+    color: #ffffff;
+}
+footer section ul{
+    list-style: none;
+    margin-top: 10px;
+    padding: 0;
+}
+footer section p{
+    font-size: 18px;
+}
+footer section a{
+    float: left;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+}
+footer section a:hover{
+    color: #b5b5b3;
+}
+footer div {
+    margin-top: 40px;
+    display: block;
+    text-align: center;
+    color: white;
+}
+footer div p{
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 18px;
+}
+footer div p span{
+    color: #e8491d;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.fa {
+    padding: auto;
+    font-size: 30px;
+    width: 20px;
+    height: 20px;
+    text-decoration: none;
+    margin: 5px 5px;
+    color: white;
+}
+.fa-facebook:hover {
+    color: #3B5998;
+}
+.fa-twitter:hover {
+    color: #55ACEE;
+}
+.fa-linkedin:hover {
+    color: #007bb5;
+}
+@media screen and (max-width: 880px){
+    footer section{
+        margin-left: 10px;
+        margin-top: 0;
+        padding: 5px;
+    }
+}

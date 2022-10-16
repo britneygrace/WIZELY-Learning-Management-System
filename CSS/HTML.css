@@ -1,0 +1,223 @@
+.btn-group {
+    width: 300px;
+}
+.login{
+    color: #ffffff;
+    margin-left: 180px;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.login:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+#profile{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+.list-group .fa{
+    display: none;
+}
+.html {
+    padding-top: 20px;
+}
+.trial{
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 77%;
+    padding-left:20px;
+    padding-bottom: 30px;
+    margin: 20px 0 20px;
+    box-shadow: 5px 3px 5px #cccccc ;
+}
+#trial{
+    display: inline-block;
+    margin-right: 50px;
+}
+.trial h3{
+    padding-top: 20px;
+    margin: 0;
+}
+textarea{
+    width: 200px;
+    height: 320px;
+    resize: none;
+    border: 1px solid #000000;
+    color: #000000;
+}
+#description{
+    background-color: #f3f3f3;
+    border: none;
+    box-shadow: 5px 3px 5px #cccccc;
+    width: 200px;
+    height: 320px;
+    padding-left: 8px;
+}
+.about{
+    text-align: left;
+    display: inline-flex;
+    width: 100%;
+}
+#about{
+    height: auto;
+    width: 450px;
+    margin-right: 10px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    padding-left: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    font-size: 14px;
+}
+#about li{
+    list-style: inside;
+}
+td{
+    padding-right: 100px;
+}
+#next{
+    width: 20%;
+    height: 50px;
+    background-color: #e8491d;
+    border: none;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    float: right;
+    padding-bottom: 10px;
+}
+#next:hover{
+    background-color: #f37755;
+    cursor: pointer;
+}
+button a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+}
+footer{
+    padding: 20px;
+    margin-top: 10px;
+    height: 250px;
+    width: 100%;
+    background-color: #35424a;
+}
+footer section{
+    text-align: justify;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding: 10px;
+    color: #ffffff;
+}
+footer section ul{
+    list-style: none;
+    margin-top: 10px;
+    padding: 0;
+}
+footer section p{
+    font-size: 18px;
+}
+footer section a{
+    float: left;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+}
+footer section a:hover{
+    color: #b5b5b3;
+}
+footer div {
+    margin-top: 40px;
+    display: block;
+    text-align: center;
+    color: white;
+
+}
+footer div p{
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 18px;
+}
+footer div p span{
+    color: #e8491d;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.fa {
+    padding: auto;
+    font-size: 30px;
+    width: 20px;
+    height: 20px;
+    text-decoration: none;
+    margin: 5px 5px;
+    color: white;
+}
+.fa-facebook:hover {
+    color: #3B5998;
+}
+.fa-twitter:hover {
+    color: #55ACEE;
+}
+.fa-linkedin:hover {
+    color: #007bb5;
+}
+@media screen and (max-width: 880px){
+    .list-group .fa{
+        display: block;
+        padding-left: 20px;
+    }
+    .list-group {
+        width: 65px;
+        height: 872px;
+        left: 0;
+        background-color: #ffffff;
+        transition: 0.5s;
+    }
+    .list-group a {
+        color: #000000;
+        display: none;
+        transition: 0.3s;
+    }
+    .list-group:hover{
+        width: 125px;
+        box-shadow: 3px 5px 3px #cccccc;
+    }
+    .list-group:hover a{
+        display: block;
+    }
+    .trial{
+        width: 420px;
+    }
+    #trial{
+        margin-left: 45px;
+    }
+    #trial h3{
+        font-size: 20px;
+    }
+    textarea{
+        width: 100px;
+        height: 150px;
+    }
+    #description{
+        margin-left: 80px;
+        width: 200px;
+        height: 280px;
+    }
+    .about{
+        display: inline-block;
+    }
+    #about h4{
+        font-size: 20px;
+    }
+    #about ul{
+        padding: 0;
+    }
+    footer section{
+        margin-left: 10px;
+        margin-top: 0;
+        padding: 5px;
+    }
+}

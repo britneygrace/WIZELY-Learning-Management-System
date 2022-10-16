@@ -1,0 +1,269 @@
+.btn-group {
+    width: 300px;
+}
+.login{
+    color: #ffffff;
+    margin-left: 180px;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.login:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+#profile{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+.list-group .fa{
+    display: none;
+}
+.colors{
+    padding: 20px;
+}
+#name{
+    color: coral;
+}
+#pink{
+    display: inline-block;
+    width: 80px;
+    height: 50px;
+    background-color: pink;
+    line-height: 50px;
+    text-align: center;
+    color: black;
+    margin-right: 12px;
+}
+#yellow{
+    display: inline-block;
+    width: 80px;
+    height: 50px;
+    background-color: yellow;
+    line-height: 50px;
+    text-align: center;
+    color: black;
+    margin-right: 12px;
+}
+#blue{
+    display: inline-block;
+    width: 80px;
+    height: 50px;
+    background-color: blue;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    margin-right: 12px;
+}
+#green{
+    display: inline-block;
+    width: 80px;
+    height: 50px;
+    background-color: green;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    margin-right: 12px;
+}
+#purple{
+    display: inline-block;
+    width: 80px;
+    height: 50px;
+    background-color: purple;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+}
+#background{
+    width: 300px;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-left: 3px;
+    text-align: center;
+}
+#wizely{
+    width: 52%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+ #color{
+    width: 600px;
+    height: 100px;
+    padding-top: 20px;
+    padding-left: 5px;
+    color: blue;
+
+}
+#sample{
+    width: 52%;
+    height: 200px;
+    padding-top: 20px;
+    padding-left: 5px;
+
+}
+#text{
+    width: 52%;
+    height: 50px;
+    color: tomato;
+    line-height: 50px;
+    text-align: center;
+}
+#rgb,#hex,#hsl{
+    background-color: tomato;
+    color: white;
+    width: 52%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+#trial{
+    width: 38%;
+    height: 100px;
+    resize: none;
+    border: 2px solid coral;
+    box-shadow: 8px 3px 8px #cccccc;
+}
+#next{
+    width: 20%;
+    height: 50px;
+    background-color: #e8491d;
+    border: none;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    float: right;
+}
+#next:hover{
+    background-color: #f37755;
+    cursor: pointer;
+}
+#previous:hover{
+    background-color: #f37755;
+    cursor: pointer;
+}
+#previous{
+    width: 20%;
+    height: 50px;
+    background-color: #e8491d;
+    border: none;
+}
+button a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+}
+footer{
+    padding: 20px;
+    margin-top: 10px;
+    height: 250px;
+    background-color: #35424a;
+}
+footer section{
+    text-align: justify;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding: 10px;
+    color: #ffffff;
+}
+footer section ul{
+    list-style: none;
+    margin-top: 10px;
+    padding: 0;
+}
+footer section p{
+    font-size: 18px;
+}
+footer section a{
+    float: left;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+}
+footer section a:hover{
+    color: #b5b5b3;
+}
+footer div {
+    margin-top: 40px;
+    display: block;
+    text-align: center;
+    color: white;
+}
+footer div p{
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 18px;
+}
+footer div p span{
+    color: #e8491d;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.fa {
+    padding: auto;
+    font-size: 15px;
+    width: 20px;
+    height: 20px;
+    text-decoration: none;
+    margin: 5px 5px;
+    color: white;
+}
+.fa-facebook:hover {
+    color: #3B5998;
+}
+.fa-twitter:hover {
+    color: #55ACEE;
+}
+.fa-linkedin:hover {
+    color: #007bb5;
+}
+
+@media screen and (max-width: 880px){
+    .list-group .fa{
+        display: block;
+        padding-left: 20px;
+    }
+    .list-group {
+        width: 65px;
+        height: 872px;
+        left: 0;
+        background-color: #ffffff;
+        transition: 0.5s;
+    }
+    .list-group a {
+        color: #000000;
+        display: none;
+        transition: 0.3s;
+    }
+    .list-group:hover{
+        width: 125px;
+        box-shadow: 3px 5px 3px #cccccc;
+    }
+    .list-group:hover a{
+        display: block;
+    }
+    .trial{
+        width: 420px;
+    }
+    #trial{
+        margin-left: 45px;
+    }
+    textarea{
+        width: 200px;
+        height: 300px;
+    }
+    #description{
+        width: 388px;
+        height: 280px;
+    }
+    .about{
+        display: inline-block;
+    }
+    footer section{
+        margin-left: 10px;
+        margin-top: 0;
+        padding: 5px;
+    }
+}
